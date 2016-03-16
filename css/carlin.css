@@ -9,3 +9,12 @@ p {
 .finished .glyphicon {
     color: green;
 }
+
+.thumb {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    border-radius: 3px;
+    line-height: 1;
+}
