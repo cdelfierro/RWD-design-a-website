@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About this</title>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/carlin.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <nav class="nav navbar-default">
+    <!-- start navbar container -->
+    <div class="container-fluid">
+
+      <!-- start collapsed navbar -->
+      <div class="navbar-header">
+        <button class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#main-menu" aria-expanded="false"
+                aria-label="Toggle menu">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </button>
+      </div> <!-- / collapsed navbar -->
+
+      <!-- start extended navbar -->
+      <div class="collapse navbar-collapse" id="main-menu">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="about.html">About</a></li>
+        </ul>
+      </div> <!-- / extended navbar -->
+
+    </div> <!-- / navbar container -->
+  </nav>
+
+  <!-- start main content -->
+  <div class="container">
+    <!-- start main row -->
+    <div class="row">
+      <!-- start main content -->
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <h1>About this</h1>
+
+        <!-- start breadcrumbs -->
+        <ol class="breadcrumb">
+          <li><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></li>
+          <li><a href="about.html">About</a></li>
+        </ol> <!-- / breadcrumbs -->
+
+        <p>
+          This is the first assignment of the Coursera MOOC
+          <a href="https://www.coursera.org/learn/responsive-web-design/">Responsive
+          Web Design</a>. It consists on a webpage that displays a list of tasks.
+          In particular, Carlos' tasks. The tasks are in the <a href="index.html">Home</a>
+          page, and are represented as a list that uses Bootstrap's 
+          <a href="http://getbootstrap.com/components/#list-group-linked">
+          list group component</a> where the completed tasks are marked with a
+          green background and the <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+          <span class="sr-only">OK</span> icon. The tasks are clickable and links
+          to the <a href="task.html">task details page</a>. Currently, all the
+          tasks in the home page, links to the same task details page.
+        </p>
+        <p>
+          In the <a href="task.html">task details page</a> there is a title
+          for the task, followed by a description, the asignee (with a little
+          thumbnail) and a label stating if the task is finished or not.
+        </p>
+        <p>
+          The navigation of the site is made with two components: the
+          <a href="http://getbootstrap.com/components/#navbar">Nav bar</a>
+          and the <a href="http://getbootstrap.com/components/#breadcrumbs">Breadcrumbs</a>.
+          The navbar shows the two main pages: The <a href="index.html">Home</a>
+          page and the <a href="about.html">About</a> page and highlight the current
+          page. The breadcrumbs are shown below the main title and shows the hierarchy
+          of the navigation as the user goes deep in it.
+        </p>
+        <p>
+          For the design, the theme <a href="https://bootswatch.com/slate/">Slate</a>
+          was chosen. The main content is centered using the classes provided by
+          Bootstrap and it is responsive according the size of the screen.
+        </p>
+        <p>
+          Finally, the creator of this page is <a href="https://github.com/cdelfierro">
+          Carlos Gómez del Fierro</a> and you can mail me to <a href="mailto:cdelfierro@gmail.com">
+          cdelfierro [AT] gmail [DOT] com</a> Thanks!
+        </p>
+      </div> <!-- / main content -->
+    </div> <!-- / main row -->
+  </div> <!-- / main content -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
