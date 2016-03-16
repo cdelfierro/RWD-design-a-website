@@ -3,7 +3,7 @@ This assignment consists in a website that presents a set of tasks to its users.
 
 There are 3 pages on the site:
 
-1. A landing page that presents a list of tasks to the user. Tasks can be be finished or not finished. Every task in the list links to the same task page.
+1. A landing page that presents a list of tasks to the user. Tasks can be finished or not finished. Every task in the list links to the same task page.
 2. A task page that presents the details of a single task to the user. Tasks have a title, a description and a person associated with them. All the tasks on the landing page links to the same task detail page, as this is just an example of how a task looks.
 3. An 'about' page that explains what the site is for.
 
